@@ -1,25 +1,51 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="mg">
+        <input placeholder="enter your name" />
+      </div>
+      <div>
+        <p className="mg"></p>
+      </div>
     </div>
+
   );
 }
+
+//--------------------------------
+
+// function App() {
+//   const [resourceType, setResourceType] = useState("Posts");
+//   const [items, setItems] = useState([]);
+
+//   useEffect(() => {
+//     fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
+//       .then(response => response.json())
+//       .then(json => setItems(json))
+//   }, [resourceType])
+
+//   return (
+//     <div className="wrapper">
+//       <div>
+//         <button className="resource" >
+//           Posts
+//         </button>
+//         <button className="resource" >
+//           Users
+//         </button>
+//         <button
+//           className="resource"
+
+//         >
+//           Comments
+//         </button>
+//       </div>
+//       <h1></h1>
+//     </div>
+//   );
+// }
 
 export default App;
