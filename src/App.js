@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 
+//useState
 function App() {
   return (
     <div>
@@ -17,6 +18,7 @@ function App() {
 
 //--------------------------------
 
+//useEffect
 // function App() {
 //   const [resourceType, setResourceType] = useState("Posts");
 //   const [items, setItems] = useState([]);
