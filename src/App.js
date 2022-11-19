@@ -25,20 +25,11 @@ function App() {
 //   return (
 //     <div className="wrapper">
 //       <div>
-//         <button className="resource" >
-//           Posts
-//         </button>
-//         <button className="resource" >
-//           Users
-//         </button>
-//         <button
-//           className="resource"
-
-//         >
-//           Comments
-//         </button>
+//         <button className="resource" onClick={()=>setResourceType('Posts')}>Posts</button>
+//         <button className="resource" onClick={()=>setResourceType('Users')}>Users</button>
+//         <button className="resource" onClick={()=>setResourceType('Comments')}>Comments</button>
 //       </div>
-//       <h1></h1>
+//       <h1>{resourceType}</h1>
 //     </div>
 //   );
 // }
