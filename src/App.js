@@ -21,13 +21,6 @@ function App() {
 //useEffect
 // function App() {
 //   const [resourceType, setResourceType] = useState("Posts");
-//   const [items, setItems] = useState([]);
-
-//   useEffect(() => {
-//     fetch(`https://jsonplaceholder.typicode.com/${resourceType}`)
-//       .then(response => response.json())
-//       .then(json => setItems(json))
-//   }, [resourceType])
 
 //   return (
 //     <div className="wrapper">
