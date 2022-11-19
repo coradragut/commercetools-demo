@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <div className="mg">
-        <input placeholder="enter your name" />
+        <input type="text" placeholder="enter your name" />
       </div>
       <div>
         <p className="mg"></p>
